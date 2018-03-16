@@ -12,6 +12,24 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "build-css": "node-sass-chokidar src/ -o src/",
+		"watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinrichardJIN/React-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinrichardJIN/React-demo/issues"
+  },
+  "homepage": "./"
 }

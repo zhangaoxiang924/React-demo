@@ -1,0 +1,152 @@
+.App {
+    .banner {
+        width: 100%;
+        height: 600px;
+        background-image: url("./image/downloadBanner.png");
+    }
+
+    .banner .bannerPc {
+        width: 573px;
+        height: 439px;
+        bottom: -15px;
+        right: 0;
+        z-index: 1000;
+        background-image: url("./image/downloadHeaderImage.png");
+    }
+
+    .height600 {
+        height: 600px;
+    }
+
+    .banner .lineh4 {
+        width: 35px;
+        height: 4px;
+        margin: 45px 0;
+    }
+
+    .scan {
+        width: 440px;
+        height: 220px;
+    }
+
+    .width26 {
+        width: 26px;
+        height: 26px;
+    }
+
+    .logoIphone {
+        background: url("./image/iosIcon.png") no-repeat center;
+        background-size: 30px 20px;
+    }
+
+    .logoAndroid {
+        background: url("./image/androidIcon.png") no-repeat center;
+        background-size: 25px 27px;
+    }
+
+    .w169h50 {
+        width: 169px;
+        height: 50px;
+    }
+
+    .ML60 {
+        margin-left: 60px;
+    }
+
+    .typeAndroid,
+    .typeIphone {
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .typeIphone {
+        animation: iosmove 2s;
+    }
+
+    .typeAndroid {
+        animation: androidmove 2s;
+    }
+
+    .scan p {
+        margin-top: -10px;
+        width: 129px;
+    }
+
+    .R28P {
+        right: 28px;
+    }
+
+    .h550 {
+        height: 550px;
+    }
+
+    .MB24 {
+        margin-bottom: 24px;
+    }
+
+    .advantage ul li {
+        width: 25%;
+        padding: 0 22px;
+        box-sizing: border-box;
+    }
+
+    .advantageText {
+        color: rgb(198, 198, 198);
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .advantageImg {
+        height: 140px;
+        margin-bottom: 45px;
+    }
+
+    .line3 {
+        width: 45px;
+        height: 3px;
+        margin-bottom: 60px;
+    }
+
+    .downloadBot {
+        padding-top: 55px;
+        height: 695px;
+        background-image: url("../../asset/image/footImg.png");
+    }
+
+    /* 版本 */
+
+    .edition {
+        top: 5px;
+        left: 790px;
+    }
+
+    .downloadBot ul {
+        left: 835px;
+        top: 99px;
+    }
+
+    /* 动画 */
+
+    @keyframes iosmove {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes androidmove {
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+}

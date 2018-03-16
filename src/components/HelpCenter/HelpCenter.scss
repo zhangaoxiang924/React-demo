@@ -1,0 +1,98 @@
+.HelpCenter {
+	.overHidden {
+		overflow: hidden;
+	}
+	.question .title {
+		height: 55px;
+		line-height: 55px;
+		color: rgb(0, 0, 0);
+	}
+	.question ul li {
+		background-color: #fff;
+		box-sizing: border-box;
+		line-height: 50px;
+		color: rgb(46, 48, 51);
+		text-align: left;
+		font-size: 16px;
+	}
+	.questionList {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 0 20px;
+	}
+	.questionList>p {
+		display: inline-block;
+		height: 55px;
+		line-height: 55px;
+		color: #4c4c4c;
+	}
+	.arrow {
+		width: 24px;
+		height: 54px;
+		background: url('../../asset/image/arrow.png') no-repeat center;
+		transform: rotate(0deg);
+		-webkit-transition: all 0.5s;
+	}
+	.answer p {
+		color: rgb(153, 153, 153);
+		width: 100%;
+		display: block;
+		font-size: 14px;
+		line-height: 25px;
+		padding-top: 0;
+		margin: 20px 0;
+		word-break: break-all;
+	}
+	.hidden {
+		display: none;
+	}
+	.arrowrotate {
+		transform: rotate(-180deg) !important;
+	}
+	.question ul li .answer {
+		border-top: 2px solid #dcdcdc;
+		color: rgb(151, 151, 151);
+	}
+	/* banner */
+	.banner {
+		height: 360px;
+		background: url('./image/helpCenterBanner.png') center;
+	}
+	.banner .bannerLine {
+		width: 80px;
+		height: 4px;
+	}
+	.height65 {
+		height: 65px;
+		line-height: 65px;
+	}
+	.helpCenterTitle {
+		animation: helpCenter 1s;
+		-webkit-animation: helpCenter 1s;
+	}
+	.helpCenterQA {
+		animation: helpCenterQA 1s;
+		-webkit-animation: helpCenterQA 1s;
+	}
+	@keyframes helpCenter {
+		from {
+			transform: translateX(-300px);
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+	@keyframes helpCenterQA {
+		from {
+			transform: translateX(300px);
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+}

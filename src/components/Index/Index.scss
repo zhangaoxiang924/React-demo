@@ -1,0 +1,166 @@
+.Index {
+    /* banner */
+
+    .bannerIndex {
+        height: 640px;
+        background-image: url("./image/banner.png");
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .MB37P {
+        margin-bottom: 37px;
+    }
+
+    .height36 {
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .MarginLR20 {
+        margin: 0 20px;
+    }
+
+    .line3 {
+        width: 45px;
+        height: 3px;
+        margin-bottom: 60px;
+    }
+
+    .w243 {
+        width: 243px;
+    }
+
+    /* product */
+
+    .product {
+        height: 654px;
+    }
+
+    .product ul li {
+        width: 378px;
+        height: 310px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        transition: all 0.5s;
+    }
+    .product ul li:hover {
+        transform: translateY(-3px);
+        box-shadow: 2px 2px 20px #b7b7b7;
+    }
+
+    .MAbout32 {
+        margin: 0 32px;
+    }
+
+    .linew26 {
+        width: 26px;
+        height: 3px;
+    }
+
+    .MB25 {
+        margin-bottom: 25px;
+    }
+
+    .font68 {
+        font-size: 68px;
+    }
+
+    .indexDownApp {
+        width: 129px;
+        height: 124px;
+        background-image: url("../../asset/image/appDown.png");
+        background-size: 100% 100%;
+    }
+
+    .productFlag {
+        position: absolute;
+        right: 30px;
+        width: 28px;
+        height: 35px;
+        top: 0;
+        background-image: url("./image/flg.png");
+    }
+
+    /* 下载码 */
+
+    .downloadQrcode {
+        margin-left: 170px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .grayTexc2c6c7 {
+        color: rgb(194, 198, 199);
+    }
+
+    .grayTexbdc1c1 {
+        color: rgb(189, 193, 193);
+    }
+
+    .download {
+        padding-top: 55px;
+        box-sizing: border-box;
+        height: 695px;
+        background-image: url("../../asset/image/footImg.png");
+    }
+
+    .MT45 {
+        margin-top: 45px;
+    }
+
+    .qrcode {
+        padding-left: 3px;
+        height: 100px;
+    }
+
+    .MB55P {
+        margin-bottom: 55px;
+    }
+
+    .advantage {
+        height: 550px;
+    }
+
+    .advantage ul li {
+        width: 25%;
+        padding: 0 22px;
+        box-sizing: border-box;
+    }
+
+    .advantageText {
+        color: rgb(198, 198, 198);
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .advantageImg {
+        height: 140px;
+        margin-bottom: 45px;
+    }
+
+    .aboutUs {
+        height: 700px;
+        box-sizing: border-box;
+    }
+
+    .video {
+        height: 206px;
+        background-image: url("./image/aboutUsVideo.png");
+    }
+
+    .videoplay {
+        border-radius: 8px;
+        background-image: linear-gradient( -45deg, rgb(253, 177, 32), rgb(254, 85, 46));
+    }
+
+    .playShow {
+        width: 12px;
+        height: 16px;
+        background-image: url("./image/playButton.png");
+    }
+
+    .grayTex153 {
+        color: rgb(153, 153, 153);
+    }
+}
