@@ -95,4 +95,19 @@
 			opacity: 1;
 		}
 	}
+	
+	
+	//问题显示和隐藏
+	.height0{
+	    height:0px;
+	    overflow:hidden;
+	    transition:0.5s all;
+	}
+	.answerShow{
+	    display:block;
+	    height:68px;
+	}
+	
+	
+	
 }

@@ -5,6 +5,9 @@
 		line-height: 102px;
 		position: relative;
 	}
+	.header ul a{
+		color:#616161;
+	}
 	.header ul a:hover {
 		color: rgb(251, 106, 56);
 	}
@@ -105,5 +108,36 @@
 	}
 	.w800 {
 		width: 800px;
+	}
+	
+	
+	
+	
+	/*hover属性*/
+	.slider{
+		width:0px;
+		height:3px;
+		background:#fb6a38;
+		display:inline-block;
+		position:absolute;
+		top:30px;
+		left:50%;
+		transition:0.5s all;
+		transform:translateX(-50%);
+		
+	}
+	.sliderParent{
+		color:#fb6a38 !important;
+	}
+	.sliderParent::after{
+		content:"";
+		position:absolute;
+		top:30px;
+		width:85%;
+		height:3px;
+		background:#fb6a38;
+		display:inline-block;
+		left:50%;
+		transform:translateX(-50%);
 	}
 }
